@@ -1,0 +1,9 @@
+{
+  "name": "nexhub-api",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "nodemailer": "^6.9.7",
+    "qrcode": "^1.5.3"
+  }
+} 
