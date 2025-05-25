@@ -1,34 +1,47 @@
 # NexHub Community Website
 
-A modern, responsive website for the NexHub Community built with React, TypeScript, and Tailwind CSS.
-
+A modern, responsive website for the NexHub Community built with React, TypeScript, and Tailwind CSS. This platform serves as the official website for the NexHub Community, providing information about events, team members, and opportunities to join the community.
+- Deployed Link : [https://nexhubcommunity.vercel.app/](https://nexhubcommunity.vercel.app/)
 ## Features
 
-- Fully responsive design
-- Dark mode/light mode toggle
-- Interactive UI with animations using Framer Motion
-- Multiple pages: Home, About, Events, Team, Contact, and Join Us
+- 🎨 Fully responsive design with modern UI/UX
+- 🌓 Dark mode/light mode toggle
+- ✨ Interactive UI with smooth animations using Framer Motion
+- 📱 Mobile-first approach
+- 📧 Contact form with email integration
+- 🔐 Privacy policy and terms of service
+- 📝 Dynamic content management
+- 🎯 Multiple pages: Home, About, Events, Team, Contact, and Join Us
 
 ## Tech Stack
 
-- React
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- React Router
+- ⚛️ React 18
+- 📘 TypeScript
+- 🎨 Tailwind CSS
+- �� Framer Motion
+- 🛣️ React Router
+- 📧 EmailJS for contact forms
+- 🔄 Vite for build tooling
+- 🚀 Express.js backend
+- 📱 Responsive design
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - Node.js (v14 or later)
 - npm or yarn
+- Git
 
-### Installation
+## Installation
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/shivamshar03/nexhub-website.git
+    git clone https://github.com/shivamshar03/
+   nexhub-website.git
+   ```
+   or 
+   
+   ```bash
+   git clone https://github.com/NexHub-Community/Official_Website.git
    cd nexhub
    ```
 
@@ -39,11 +52,14 @@ A modern, responsive website for the NexHub Community built with React, TypeScri
    yarn install
    ```
 
-3. Start the development server
+3. Create a `.env` file in the root directory and add necessary environment variables:
    ```bash
-   npm start
-   # or
-   yarn start
+   SMTP_PASSWORD=**** **** ****
+   SMTP_EMAIL=noreply.nexhub@gmail.com
+   # Server Settings
+   PORT=5000
+   GOOGLE_SCRIPT_URL=https://script.google.com/.........
+   VITE_API_URL=https://nexhubcommunity.vercel.app 
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -65,24 +81,3 @@ nexhub/
 ├── tailwind.config.js
 └── README.md
 ```
-
-## Customization
-
-- **Colors**: Edit the theme colors in `tailwind.config.js`
-- **Content**: Update the content in the respective page components
-- **Styling**: Modify the Tailwind classes or add custom CSS in `src/index.css`
-
-## Deployment
-
-This site can be easily deployed to platforms like Vercel, Netlify, or GitHub Pages.
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-## License
-
-MIT 
-# nexhubwebsite
